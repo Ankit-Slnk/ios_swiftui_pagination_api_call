@@ -11,7 +11,7 @@ import SwiftUI
 struct ios_swiftui_pagination_api_callApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersListScreen()
         }
     }
 }

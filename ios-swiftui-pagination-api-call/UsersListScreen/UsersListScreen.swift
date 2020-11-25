@@ -90,7 +90,7 @@ struct UserItemView: View {
     @State var user: UserDetails!
     
     var body: some View {
-        NavigationLink(destination: FullscreenImageview(imageUrl: user.avatar)) {
+        NavigationLink(destination: UsersDetailsScreen(user: user)) {
             HStack (spacing: CGFloat(16)) {
                 
                 URLImage(url: URL(string: user.avatar)!,

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import Alamofire
+
+class Reachability {
+    static let sharedInstance = NetworkReachabilityManager()!
+    static var isConnectedToInternet:Bool {
+        return self.sharedInstance.isReachable
+    }
+}
+
