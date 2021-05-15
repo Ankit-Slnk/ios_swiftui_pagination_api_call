@@ -90,4 +90,4 @@ Convert `JSON` response from this api to `swift class` using [quicktype](https:/
         }
     }
 
-##### Please refer to my [blogs](https://ankitsolanki.netlify.app/blog.html) for more information.
+<!-- ##### Please refer to my [blogs](https://ankitsolanki.netlify.app/blog.html) for more information. -->
